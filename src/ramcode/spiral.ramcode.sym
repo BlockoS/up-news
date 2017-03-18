@@ -1,0 +1,166 @@
+Label				Addr	Bank
+-----				----	----
+VDC_DMA_DST			0011	 f0
+VDC_DMA_VRAM_ENABLE		0002	 f0
+_tmp1				20a4	 f0
+DEVELO				0000	 f0
+vdc_ri				20f7	 f0
+VDC_DMA_SRC_DEC			0004	 f0
+_tmp2				20a5	 f0
+vdc_data_h			0000	 f0
+VDC_CR_SPR_OVERFLOW_ENABLE	0002	 f0
+_bank_base			0000	 f0
+VDC_VDR				000d	 f0
+video_data_h			0003	 f0
+_tmp3				20a6	 f0
+VDC_MWR				0009	 f0
+lsrw				0000	 f0
+VDC_STATUS_HBLANK		0004	 f0
+VDC_CR_RW_INC_1			0000	 f0
+_x				2042	 f0
+rorw				0000	 f0
+vdc_bat_width			2200	 f8
+VDC_BXR				0007	 f0
+vdc_crh				20f4	 f0
+_y				2046	 f0
+_z0				20a0	 f0
+vdc_data_l			0000	 f0
+VDC_DATA			0002	 f0
+_z1				20a2	 f0
+_call_bank			0001	 f0
+video_data_l			0002	 f0
+decw				0000	 f0
+VDC_DMA_LEN			0012	 f0
+vdc_wait_vsync			0000	 f0
+VDC_MARR			0001	 f0
+spiral				3000	 f0
+vdc_data			0000	 f0
+adcw				0000	 f0
+video_reg			0000	 f0
+VDC_HDR_db			0000	 f0
+vdc_crl				20f3	 f0
+videoport			0000	 f0
+spiral_3_cos			e7b0	 f0
+spiral_spr_lo			e480	 f0
+VDC_CR_SPR_COLLISION_ENABLE	0001	 f0
+cos_tbl				e240	 f0
+CDROM				0000	 f0
+VDC_CR_RW_INC_128		1800	 f0
+vdc_bat_vmask			2204	 f8
+VDC_DMA_DST_INC			0000	 f0
+VDC_VSR				000c	 f0
+transform_points		3000	 f0
+VDC_STATUS_VBLANK		0020	 f0
+spiral_3_ds			e6b0	 f0
+stwz				0000	 f0
+MAGICKIT			0001	 f0
+VDC_HDR				000b	 f0
+_du				2048	 f0
+VDC_SATB_SRC			0013	 f0
+_nb_bank			0002	 f0
+phw				0000	 f0
+spiral.ramcode_begin		3000	 00
+VDC_DMA_SRC			0010	 f0
+spiral_3_dt			e5b0	 f0
+_dv				204a	 f0
+rolw				0000	 f0
+VDC_RCR_START			0040	 f0
+VDC_STATUS_SPR_OVERFLOW		0002	 f0
+VDC_DEFAULT_SATB_ADDR		7f00	 f0
+vdc_bat_height			2202	 f8
+vdc_bat_hmask			2203	 f8
+VDC_BYR				0008	 f0
+VDC_DMA_DST_DEC			0008	 f0
+spiral_update			3000	 00
+	.end			30c1	 00
+	.y1			3068	 f0
+	.y0			3064	 f0
+	.x1			3085	 f0
+	.x0			3081	 f0
+	.loop			3012	 00
+	.i0			3013	 f0
+	.perspective		3061	 f0
+vdc_reg				0000	 f0
+VDC_CR_SPR_ENABLE		0040	 f0
+VDC_DEFAULT_BG_SIZE		0050	 f0
+VDC_CR_VBLANK_ENABLE		0008	 f0
+plw				0000	 f0
+negw				0000	 f0
+MAX_POINT_COUNT			0020	 f0
+sbcw				0000	 f0
+addw				0000	 f0
+subw				0000	 f0
+VDC_STATUS_VRAM_DMA_END		0010	 f0
+VDC_HSR				000a	 f0
+stw				0000	 f0
+VDC_STATUS_BUSY			0040	 f0
+_x0				2040	 f0
+spiral_size			e440	 f0
+VDC_CR_RW_INC_64		1000	 f0
+VDC_BG_64x64			0050	 f0
+vdc_sr				20f6	 f0
+VDC_STATUS_SPR_COLLISION	0001	 f0
+spiral_update_2			30c2	 00
+	.end			317f	 00
+	.x3			315c	 f0
+	.x2			3159	 f0
+	.y3			3125	 f0
+	.y2			3122	 f0
+	.y1			3103	 f0
+	.x1			313a	 f0
+	.y0			30ff	 f0
+	.x0			3136	 f0
+	.l1			30e4	 00
+	.loop			30d9	 00
+	.i1			30da	 f0
+	.l0			30c8	 00
+	.i0			30c3	 f0
+	.spiral_2_sin		e558	 f0
+	.spiral_2_cos		e500	 f0
+	.spiral_2_spr_lo	e4c0	 f0
+VDC_MAWR			0000	 f0
+VDC_CR_RW_INC_32		0800	 f0
+VDC_BG_64x32			0010	 f0
+VDC_RCR				0006	 f0
+video_data			0002	 f0
+VDC_BG_128x64			0060	 f0
+VDC_CR_BG_ENABLE		0080	 f0
+spiral_update_3			3180	 00
+	.end			32a9	 00
+	.lx			3259	 00
+	.index			3292	 f0
+	.ly			321d	 00
+	.l5			3210	 00
+	.l3			31d6	 00
+	.l1			319a	 00
+	.l0			318d	 00
+	.i0			3181	 f0
+	.spiral_2_spr_lo	e4c0	 f0
+spiral.ramcode_end		32aa	 00
+SATB_ADDRESS			4000	 f0
+VDC_STATUS_SATB_DMA_END		0008	 f0
+spiral_perspective		e200	 f0
+VDC_VCR				000e	 f0
+VDC_BG_32x64			0040	 f0
+VDC_BG_128x32			0020	 f0
+VDC_HSR_db			0000	 f0
+VDC_CR_HBLANK_ENABLE		0004	 f0
+video_reg_h			0001	 f0
+aslw				0000	 f0
+VDC_DMA_SATB_ENABLE		0001	 f0
+incw				0000	 f0
+VDC_DMA_SATB_AUTO		0010	 f0
+vdc_setreg			0000	 f0
+spiral_mul			e000	 f0
+_y0				2044	 f0
+VDC_BG_32x32			0000	 f0
+_bss_end			2205	 f0
+VDC_DEFAULT_XRES		0100	 f0
+VDC_CR				0005	 f0
+VDC_DMA_SRC_INC			0000	 f0
+VDC_DMA_CR			000f	 f0
+spiral_spr_hi			e4c0	 f0
+video_reg_l			0000	 f0
+sin_tbl				e340	 f0
+_tmp0				20a3	 f0
+spiral_3_sin			e8b0	 f0

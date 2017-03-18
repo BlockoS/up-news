@@ -1,0 +1,922 @@
+Label				Addr	Bank
+-----				----	----
+SPIRAL_LIVE_VRAM_ADDR		2b00	 f0
+VDC_DMA_DST			0011	 f0
+checker_ge8_end_00260		8b00	 03
+	.checker_ge8_1_00261	8b20	 03
+	.checker_ge8_0_00261	8b13	 03
+checker_ge8_end_00258		8aa8	 03
+	.checker_ge8_1_00259	8ac8	 03
+	.checker_ge8_0_00259	8abb	 03
+VDC_DMA_VRAM_ENABLE		0002	 f0
+SPIRAL_BREAKING_NEWS_WIDTH	0010	 f0
+wobbly_pal.0.lo			f109	 00
+checker_scroll_y		2042	 f8
+wobbly				f03e	 00
+	.wait_00080		f06b	 00
+	.fade			f064	 00
+	.wait_00078		f04b	 00
+	.loop			f045	 00
+ARG_REG				0001	 f0
+psg_chn				0800	 f0
+checker_ge8_end_00224		8528	 03
+	.checker_ge8_1_00225	8548	 03
+	.checker_ge8_0_00225	853b	 03
+psg_noise			0807	 f0
+checker_rcr			202e	 f8
+DEVELO				0000	 f0
+psg_lfofreq			0808	 f0
+checker_ge8_end_00315		932a	 03
+	.checker_ge8_1_00316	934a	 03
+	.checker_ge8_0_00316	933d	 03
+checker_ge8_end_00295		9012	 03
+	.checker_ge8_1_00297	9032	 03
+	.checker_ge8_0_00297	9025	 03
+_and_y				201e	 f8
+weather.data			8c40	 04
+vdc_ri				20f7	 f0
+VDC_DMA_SRC_DEC			0004	 f0
+checker_ge8_end_00261		8b2c	 03
+	.checker_ge8_1_00262	8b4c	 03
+	.checker_ge8_0_00262	8b3f	 03
+checker_ge8_end_00259		8ad4	 03
+	.checker_ge8_1_00260	8af4	 03
+	.checker_ge8_0_00260	8ae7	 03
+vgm_loop_ptr			200f	 f8
+_dl				20fe	 f0
+_ty				201b	 f8
+checker_ge8_end_00225		8554	 03
+	.checker_ge8_1_00226	8574	 03
+	.checker_ge8_0_00226	8567	 03
+vdc_data_h			0000	 f0
+_ah				20f9	 f0
+storm_base_address		c000	 f0
+memcpy_args			0000	 f0
+VDC_CR_SPR_OVERFLOW_ENABLE	0002	 f0
+news_delta			2027	 f8
+checker_ge8_end_00316		9356	 03
+	.checker_ge8_1_00317	9376	 03
+	.checker_ge8_0_00317	9369	 03
+spiral.hsync			fc2e	 00
+VCE_BLUR_ON			0004	 f0
+_bank_base			0000	 f0
+SOURCE_DEC_DEST_DEC		00c3	 f0
+checker_ge8_end_00262		8b58	 03
+	.checker_ge8_1_00263	8b78	 03
+	.checker_ge8_0_00263	8b6b	 03
+_dummy				edae	 00
+	@user_vsync		edb8	 00
+	@user_hsync		edb5	 00
+vdc_xres_512			ebb9	 00
+VDC_VDR				000d	 f0
+video_data_h			0003	 f0
+spiral_sprites_32.bin		a320	 02
+SPIRAL_NEWS_X			0000	 f0
+lsrw				0000	 f0
+VDC_MWR				0009	 f0
+checker_ge8_end_00226		8580	 03
+	.checker_ge8_1_00227	85a0	 03
+	.checker_ge8_0_00227	8593	 03
+SPIRAL_BREAKING_NEWS_BASE	12a0	 f0
+_phi				2015	 f8
+and_now.data			8020	 04
+spiral.vsync			fbf5	 00
+	.l0			fc27	 00
+irq_m				20f5	 f0
+checker_ge8_end_00317		9382	 03
+	.checker_ge8_1_00318	93a2	 03
+	.checker_ge8_0_00318	9395	 03
+checker_ge8_end_00297		903e	 03
+	.checker_ge8_1_00298	905e	 03
+	.checker_ge8_0_00298	9051	 03
+VDC_STATUS_HBLANK		0004	 f0
+weather.icon.begin		a000	 05
+spiral_2_sin			e558	 00
+checker_ge8_end_00263		8b84	 03
+	.checker_ge8_1_00264	8ba4	 03
+	.checker_ge8_0_00264	8b97	 03
+colorport			0400	 f0
+SPIRAL_NEWS_Y			0019	 f0
+VDC_CR_RW_INC_1			0000	 f0
+_x				2019	 f8
+vsync_hook			2208	 f0
+checker_ge8_end_00227		85ac	 03
+	.checker_ge8_1_00228	85cc	 03
+	.checker_ge8_0_00228	85bf	 03
+rorw				0000	 f0
+spiral.start			fad9	 00
+SPIRAL_NEWS_BASE		32b8	 f0
+DR16_VRAM_ADDR			2000	 f0
+vdc_bat_width			2200	 f8
+checker_ge8_end_00320		9406	 03
+	.checker_ge8_1_00321	9426	 03
+	.checker_ge8_0_00321	9419	 03
+checker_ge8_end_00318		93ae	 03
+	.checker_ge8_1_00319	93ce	 03
+	.checker_ge8_0_00319	93c1	 03
+checker_ge8_end_00298		906a	 03
+	.checker_ge8_1_00299	908a	 03
+	.checker_ge8_0_00299	907d	 03
+weather.icon.end		ac20	 05
+checker				812d	 03
+	.brutal_clear		8187	 03
+VDC_BXR				0007	 f0
+SOFT_RESET			0006	 f0
+wobbly_pal.1.lo			f11d	 00
+vdc_crh				20f4	 f0
+checker_ge8_end_00264		8bb0	 03
+	.checker_ge8_1_00265	8bd0	 03
+	.checker_ge8_0_00265	8bc3	 03
+storm_loop			c000	 f0
+checker_color_lo		80ca	 03
+checkerHsyncProcUpdate		0000	 f0
+_y				201a	 f8
+checker_ge8_end_00230		8630	 03
+	.checker_ge8_1_00231	8650	 03
+	.checker_ge8_0_00231	8643	 03
+checker_ge8_end_00228		85d8	 03
+	.checker_ge8_1_00229	85f8	 03
+	.checker_ge8_0_00229	85eb	 03
+breaking_news.pal		82aa	 01
+dr16.pal			f3f1	 00
+checker_ge8_end_00321		9432	 03
+	.checker_ge8_1_00322	9452	 03
+	.checker_ge8_0_00322	9445	 03
+checker_ge8_end_00319		93da	 03
+	.checker_ge8_1_00320	93fa	 03
+	.checker_ge8_0_00320	93ed	 03
+checker_ge8_end_00299		9096	 03
+	.checker_ge8_1_00300	90b6	 03
+	.checker_ge8_0_00300	90a9	 03
+and_now.begin			8000	 04
+checker_end			99be	 03
+user_hook			2200	 f0
+checker_ge8_end_00265		8bdc	 03
+	.checker_ge8_1_00266	8bfc	 03
+	.checker_ge8_0_00266	8bef	 03
+VCE_COLOR_MODE_MASK		0080	 f0
+_cx				20fc	 f0
+checker_ge8_end_00231		865c	 03
+	.checker_ge8_1_00232	867c	 03
+	.checker_ge8_0_00232	866f	 03
+checker_ge8_end_00229		8604	 03
+	.checker_ge8_1_00230	8624	 03
+	.checker_ge8_0_00230	8617	 03
+checker_lt8			0000	 f0
+vdc_data_l			0000	 f0
+_al				20f8	 f0
+checker_size			203d	 f8
+wobbly_txt			f09b	 00
+	.l1			f0bd	 00
+	.l0			f0b4	 00
+timer_cnt			0c00	 f0
+_si				20ee	 f0
+checker_ge8_end_00322		945e	 03
+	.checker_ge8_1_00323	947e	 03
+	.checker_ge8_0_00323	9471	 03
+VDC_DATA			0002	 f0
+timerport			0c00	 f0
+_call_bank			001e	 f0
+checker_ge8_end_00266		8c08	 03
+	.checker_ge8_1_00267	8c28	 03
+	.checker_ge8_0_00267	8c1b	 03
+decw				0000	 f0
+ARG_LABEL			0006	 f0
+video_data_l			0002	 f0
+checker_y0			2047	 f8
+SPIRAL_BREAKING_NEWS_HEIGHT	0001	 f0
+memcpy_init			0000	 f0
+VDC_DMA_LEN			0012	 f0
+checker_ge8_end_00232		8688	 03
+	.checker_ge8_1_00233	86a8	 03
+	.checker_ge8_0_00233	869b	 03
+vdc_wait_vsync			0000	 f0
+timer_ack			0000	 f0
+dr16				f39e	 00
+	.wait_00113		f3d5	 00
+	.l1			f3ac	 00
+	.l2			f3d2	 00
+	.l0			f3a1	 00
+spiral_data			8000	 01
+vdc_yres_240			eb82	 00
+VCE_DOT_CLOCK_5MHZ		0000	 f0
+checker_ge8_end_00323		948a	 03
+	.checker_ge8_1_00324	94aa	 03
+	.checker_ge8_0_00324	949d	 03
+timer_ctrl			0c01	 f0
+fx.proc				ed3e	 00
+checker_ge8_end_00267		8c34	 03
+	.checker_ge8_1_00268	8c54	 03
+	.checker_ge8_0_00268	8c47	 03
+vgm_bank			200a	 f8
+SPIRAL_NEWS_WIDTH		0020	 f0
+hsync_hook			220a	 f0
+checker_ge8_end_00233		86b4	 03
+	.checker_ge8_1_00234	86d4	 03
+	.checker_ge8_0_00234	86c7	 03
+spiral				3000	 f0
+remap_data			ec6b	 00
+	@l0			ec7b	 00
+bat_width_array			ea40	 00
+VDC_MARR			0001	 f0
+vdc_data			0000	 f0
+checker_ge8_end_00324		94b6	 03
+	.checker_ge8_1_00325	94d6	 03
+	.checker_ge8_0_00325	94c9	 03
+x_mod_s				8000	 03
+vgm_map				0000	 f0
+adcw				0000	 f0
+VCE_BLUR_OFF			0000	 f0
+VCE_COLOR_MODE_BW		0080	 f0
+checker_linear_init		990d	 03
+news_limit			2026	 f8
+video_reg			0000	 f0
+VDC_HDR_db			0000	 f0
+vdc_crl				20f3	 f0
+videoport			0000	 f0
+checker_ge8_end_00270		8cb8	 03
+	.checker_ge8_1_00271	8cd8	 03
+	.checker_ge8_0_00271	8ccb	 03
+checker_ge8_end_00268		8c60	 03
+	.checker_ge8_1_00269	8c80	 03
+	.checker_ge8_0_00269	8c73	 03
+checker_lt8_32			0000	 f0
+breaking_news			2022	 f8
+main				ed0e	 00
+	.no_reset		ed39	 00
+	.run.fx			ed3b	 00
+	.loop			ed1f	 00
+checker_ge8_32			0000	 f0
+BLACK				0000	 f0
+checker_ge8_end_00234		86e0	 03
+	.checker_ge8_1_00235	8700	 03
+	.checker_ge8_0_00235	86f3	 03
+checker_color			2041	 f8
+ARG_INDIRECT			0004	 f0
+color_reg_hi			0403	 f0
+TIMER				0002	 f0
+spiral_3_cos			e7b0	 00
+spiral_spr_lo			e480	 00
+cos_tbl				e240	 00
+VDC_CR_SPR_COLLISION_ENABLE	0001	 f0
+timer_disable			0000	 f0
+checker_ge8_end_00325		94e2	 03
+	.checker_ge8_1_00326	9502	 03
+	.checker_ge8_0_00326	94f5	 03
+wobbly_background_hsync		eff6	 00
+	@l2			f037	 00
+	@l1			f02c	 00
+	@l0			f026	 00
+CDROM				0000	 f0
+psg_init			ec2d	 00
+	@loop			ec35	 00
+SPIRAL_VDC_DISPLAY_FLAG		00cc	 f0
+checker_ge8_end_00271		8ce4	 03
+	.checker_ge8_1_00272	8d04	 03
+	.checker_ge8_0_00272	8cf7	 03
+checker_ge8_end_00269		8c8c	 03
+	.checker_ge8_1_00270	8cac	 03
+	.checker_ge8_0_00270	8c9f	 03
+VDC_CR_RW_INC_128		1800	 f0
+vdc_bat_vmask			2204	 f8
+vgm_update			ecd8	 00
+	.frame_end		ed07	 00
+	.check_end		ecf3	 00
+	.loop			ecdf	 00
+VDC_DMA_DST_INC			0000	 f0
+color_reg			0402	 f0
+HSYNC				0005	 f0
+checker_ge8_end_00235		870c	 03
+	.checker_ge8_1_00236	872c	 03
+	.checker_ge8_0_00236	871f	 03
+_bh				20fb	 f0
+SPIRAL_NEWS_VRAM_ADDR		2b80	 f0
+and_now.pal			8000	 04
+checker_mx			204b	 f8
+wobbly_background_vsync		ef80	 00
+	@l0			efb2	 00
+_init				e9d4	 00
+VDC_VSR				000c	 f0
+checker_ge8_end_00326		950e	 03
+	.checker_ge8_1_00327	952e	 03
+	.checker_ge8_0_00327	9521	 03
+SPIRAL_NEWS_DELAY		00c8	 f0
+VDC_STATUS_VBLANK		0020	 f0
+spiral_3_ds			e6b0	 00
+news.count			9415	 01
+put_map				ec85	 00
+	@loop.x			ec8d	 00
+	@loop.y			ec88	 00
+memcpy_mode			0000	 f0
+stwz				0000	 f0
+MAGICKIT			0001	 f0
+checker_ge8_end_00272		8d10	 03
+	.checker_ge8_1_00273	8d30	 03
+	.checker_ge8_0_00273	8d23	 03
+CHECKER_VDC_ENABLE_DISPLAY	08cc	 f0
+VDC_HDR				000b	 f0
+irq_set_vec			0000	 f0
+checkerHsyncProc		9892	 03
+	@x_00354		98ef	 03
+	.checkerHsyncProcUpdate_3	98e3	 03
+	.checkerHsyncProcUpdate_2	98d7	 03
+	.checkerHsyncProcUpdate_1	98cb	 03
+	.checkerHsyncProcUpdate_0	98bf	 03
+VDC_SATB_SRC			0013	 f0
+_nb_bank			001f	 f0
+phw				0000	 f0
+checker_ge8_end_00236		8738	 03
+	.checker_ge8_1_00237	8758	 03
+	.checker_ge8_0_00237	874b	 03
+checker_my			204f	 f8
+spiral.hsync.news		fc58	 00
+	@x_00172		fc70	 00
+	.nothing		fc7c	 00
+checker_ge8_end_00327		953a	 03
+	.checker_ge8_1_00328	955a	 03
+	.checker_ge8_0_00328	954d	 03
+vdc_fill_bat_ex			eac9	 00
+	@l1			eae4	 00
+	@l0			eacb	 00
+VDC_DMA_SRC			0010	 f0
+spiral_3_dt			e5b0	 00
+INT_IRQ1			0002	 f0
+RED				01b6	 f0
+checker_ge8_end_00273		8d3c	 03
+	.checker_ge8_1_00280	8d72	 03
+	.checker_ge8_0_00280	8d65	 03
+vgm_loop_bank			200e	 f8
+vgm_end				200d	 f8
+dr16.init			f2f7	 00
+rolw				0000	 f0
+checker_ge8_end_00237		8764	 03
+	.checker_ge8_1_00238	8784	 03
+	.checker_ge8_0_00238	8777	 03
+VDC_RCR_START			0040	 f0
+VDC_STATUS_SPR_OVERFLOW		0002	 f0
+VDC_DEFAULT_SATB_ADDR		7f00	 f0
+checker_ge8_end_00328		9566	 03
+	.checker_ge8_1_00329	9586	 03
+	.checker_ge8_0_00329	9579	 03
+live.pal			84ca	 01
+vdc_bat_height			2202	 f8
+vdc_bat_hmask			2203	 f8
+VDC_BYR				0008	 f0
+INT_IRQ2			0001	 f0
+_timer				ed92	 00
+checker_generate_palette	8089	 03
+	.checker_gen_pal_1	8099	 03
+	.checker_gen_pal_0	8097	 03
+irq_disable			1402	 f0
+VDC_DMA_DST_DEC			0008	 f0
+checker_ge8_end_00238		8790	 03
+	.checker_ge8_1_00239	87b0	 03
+	.checker_ge8_0_00239	87a3	 03
+wobbly_news			edbb	 00
+_clean_bat			2014	 f8
+PSG_CTRL_VOL_MASK		001f	 f0
+spiral_update			3000	 f0
+vdc_reg				0000	 f0
+vdc_fill_bat			eaae	 00
+vce_init			ebcb	 00
+checker_ge8_end_00331		95be	 03
+	.checker_ge8_1_00332	95de	 03
+	.checker_ge8_0_00332	95d1	 03
+checker_ge8_end_00329		9592	 03
+	.checker_ge8_1_00331	95b2	 03
+	.checker_ge8_0_00331	95a5	 03
+SPIRAL_BREAKING_NEWS_X		0000	 f0
+VCE_BLUR_MASK			0004	 f0
+BLUE				0092	 f0
+SPIRAL_BREAKING_NEWS_PAL	0001	 f0
+SOURCE_INC_DEST_ALT		00e3	 f0
+VDC_CR_SPR_ENABLE		0040	 f0
+irq_status			1403	 f0
+VDC_DEFAULT_BG_SIZE		0050	 f0
+live.tiles			84ea	 01
+SPIRAL_LIVE_WIDTH		0004	 f0
+vdc_yres_192			eb5c	 00
+_dx				20fe	 f0
+color_data_hi			0405	 f0
+checker_ge8_end_00241		87e8	 03
+	.checker_ge8_1_00242	8808	 03
+	.checker_ge8_0_00242	87fb	 03
+checker_ge8_end_00239		87bc	 03
+	.checker_ge8_1_00241	87dc	 03
+	.checker_ge8_0_00241	87cf	 03
+irq_cnt				20f2	 f0
+_bl				20fa	 f0
+vgm_base			2008	 f8
+VDC_CR_VBLANK_ENABLE		0008	 f0
+irqport				1400	 f0
+checker_ge8_end_00332		95ea	 03
+	.checker_ge8_1_00333	960a	 03
+	.checker_ge8_0_00333	95fd	 03
+SPIRAL_BREAKING_NEWS_Y		0018	 f0
+vdc_init			eaf0	 00
+	@l3			eb32	 00
+	@l2			eb1c	 00
+	@l1			eb1b	 00
+	@tile_addr		2000	 f0
+	@vdc_init_table		eb38	 00
+	@l0			eaf1	 00
+vgm_unmap			0000	 f0
+PSG_CTRL_WRITE_RESET		0040	 f0
+plw				0000	 f0
+negw				0000	 f0
+memcpy_len			2005	 f8
+psg_freq_hi			0803	 f0
+VCE_DOT_CLOCK_MASK		0003	 f0
+checker_repeat_32		0000	 f0
+checker_ge8_end_00242		8814	 03
+	.checker_ge8_1_00243	8834	 03
+	.checker_ge8_0_00243	8827	 03
+news_delay			2028	 f8
+_theta				2017	 f8
+spiral.news.update		fa91	 00
+	.l2			fac4	 00
+	.l4			fab6	 00
+	.l3			faa1	 00
+	.end			fad8	 00
+	.l1			fabc	 00
+	.l0			face	 00
+checker_ge8_end_00333		9616	 03
+	.checker_ge8_1_00334	9636	 03
+	.checker_ge8_0_00334	9629	 03
+vdc_set_read			e9e8	 00
+checker_clean_line		8115	 03
+	.checker_clean_line_0	8127	 03
+BG_SUPER_TILE_SIZE		0018	 f0
+bat_height_array		ea48	 00
+memcpy_rts			2007	 f8
+storm_bank			0006	 f0
+sbcw				0000	 f0
+vdc_xres_256			eb95	 00
+memcpy_dst			2003	 f8
+PSG_CTRL_FULL_VOLUME		003f	 f0
+irq_disable_vec			0000	 f0
+checker_ge8_end_00243		8840	 03
+	.checker_ge8_1_00244	8860	 03
+	.checker_ge8_0_00244	8853	 03
+SPIRAL_LIVE_X			0000	 f0
+vgm_ptr				200b	 f8
+SOURCE_INC_DEST_INC		0073	 f0
+VCE_COLOR_MODE_RGB		0000	 f0
+checker_ge8_end_00334		9642	 03
+	.checker_ge8_1_00335	9662	 03
+	.checker_ge8_0_00335	9655	 03
+checker_ge8_end_00207		8268	 03
+	.checker_ge8_1_00208	8288	 03
+	.checker_ge8_0_00208	827b	 03
+addw				0000	 f0
+SPIRAL_16x16_VRAM_ADDR		2040	 f0
+checker_ge8_end_00300		90c2	 03
+	.checker_ge8_1_00301	90e2	 03
+	.checker_ge8_0_00301	90d5	 03
+checker_ge8_end_00280		8d7e	 03
+	.checker_ge8_1_00281	8d9e	 03
+	.checker_ge8_0_00281	8d91	 03
+SPIRAL_BREAKING_NEWS_VRAM_ADDR	2a00	 f0
+dr16_draw_col			f271	 00
+	.l1			f293	 00
+	.l0			f277	 00
+	.l2			f291	 00
+subw				0000	 f0
+checker_ge8_end_00244		886c	 03
+	.checker_ge8_1_00245	888c	 03
+	.checker_ge8_0_00245	887f	 03
+checker_linear_update		996a	 03
+	.l3			99b7	 03
+	.l2			99ab	 03
+	.l1			9998	 03
+	.l0			998c	 03
+	.update			996d	 03
+dr16.gfx			f411	 00
+SPIRAL_NEWS_BAT_ADDR		0320	 f0
+SPIRAL_LIVE_Y			0002	 f0
+VDC_STATUS_VRAM_DMA_END		0010	 f0
+checker_ge8_end_00335		966e	 03
+	.checker_ge8_1_00336	968e	 03
+	.checker_ge8_0_00336	9681	 03
+checker_ge8_end_00210		82ec	 03
+	.checker_ge8_1_00211	830c	 03
+	.checker_ge8_0_00211	82ff	 03
+checker_ge8_end_00208		8294	 03
+	.checker_ge8_1_00209	82b4	 03
+	.checker_ge8_0_00209	82a7	 03
+news.font.tiles			860a	 01
+stw				0000	 f0
+VDC_HSR				000a	 f0
+PSG_CHAN_COUNT			0006	 f0
+checker_loop			8223	 03
+	.checker_ge8_1_00207	825c	 03
+	.checker_ge8_0_00207	824f	 03
+checker_ge8			0000	 f0
+spiral_sprites_16.bin		a020	 02
+checker_ge8_end_00301		90ee	 03
+	.checker_ge8_1_00302	910e	 03
+	.checker_ge8_0_00302	9101	 03
+checker_ge8_end_00281		8daa	 03
+	.checker_ge8_1_00282	8dca	 03
+	.checker_ge8_0_00282	8dbd	 03
+VDC_STATUS_BUSY			0040	 f0
+irq2_hook			2200	 f0
+checker_ge8_end_00245		8898	 03
+	.checker_ge8_1_00246	88b8	 03
+	.checker_ge8_0_00246	88ab	 03
+dr16.end			f891	 00
+vgm_mpr				0006	 f0
+spiral_size			e440	 00
+_ch				20fd	 f0
+_ax				20f8	 f0
+_bp				20ec	 f0
+VDC_CR_RW_INC_64		1000	 f0
+checker_ge8_end_00336		969a	 03
+	.checker_ge8_1_00337	96ba	 03
+	.checker_ge8_0_00337	96ad	 03
+checker_ge8_end_00211		8318	 03
+	.checker_ge8_1_00212	8338	 03
+	.checker_ge8_0_00212	832b	 03
+checker_ge8_end_00209		82c0	 03
+	.checker_ge8_1_00210	82e0	 03
+	.checker_ge8_0_00210	82d3	 03
+spiral.1			fb8c	 00
+	.wait_00166		fb93	 00
+	.loop			fb8d	 00
+PSG_CTRL_DDA_ON			00c0	 f0
+VDC_BG_64x64			0050	 f0
+weather.begin			8c20	 04
+SPIRAL_LIVE_BASE		22b0	 f0
+vce_load_palette		ebed	 00
+	@l0			ec15	 00
+vdc_sr				20f6	 f0
+INT_NMI				0008	 f0
+checker_ge8_end_00302		911a	 03
+	.checker_ge8_1_00303	913a	 03
+	.checker_ge8_0_00303	912d	 03
+checker_ge8_end_00282		8dd6	 03
+	.checker_ge8_1_00283	8df6	 03
+	.checker_ge8_0_00283	8de9	 03
+checker_start			8000	 03
+breaking_news.end		84ca	 01
+WOBBLY_VDC_FLAG			00cc	 f0
+psg_lfoctrl			0809	 f0
+wobbly_background_init		ef71	 00
+color_reg_lo			0402	 f0
+checker_ge8_end_00246		88c4	 03
+	.checker_ge8_1_00247	88e4	 03
+	.checker_ge8_0_00247	88d7	 03
+checker_pixel_data		8064	 03
+spiral_2_spr_lo			e4c0	 00
+news_str.idx			202d	 f8
+checker_ge8_end_00337		96c6	 03
+	.checker_ge8_1_00338	96e6	 03
+	.checker_ge8_0_00338	96d9	 03
+checker_ge8_end_00212		8344	 03
+	.checker_ge8_1_00213	8364	 03
+	.checker_ge8_0_00213	8357	 03
+spiral.2			fbaf	 00
+	.wait_00168		fbb6	 00
+	.loop			fbb0	 00
+memcpy_src			2001	 f8
+wobbly_pal.0.hi			f113	 00
+checker_ge8_end_00303		9146	 03
+	.checker_ge8_1_00304	9166	 03
+	.checker_ge8_0_00304	9159	 03
+checker_ge8_end_00283		8e02	 03
+	.checker_ge8_1_00284	8e22	 03
+	.checker_ge8_0_00284	8e15	 03
+spiral_2_cos			e500	 00
+VDC_STATUS_SPR_COLLISION	0001	 f0
+ramcode_begin			8000	 01
+VCE_DOT_CLOCK_10MHZ		0002	 f0
+checker_ge8_end_00247		88f0	 03
+	.checker_ge8_1_00248	8910	 03
+	.checker_ge8_0_00248	8903	 03
+checkerVsyncProc		9876	 03
+weather.icon.pal		a000	 05
+spiral.print			fae8	 00
+	.l6			fb7d	 00
+	.reset			fb7e	 00
+	.l5			fb6e	 00
+	.l4			fb4a	 00
+	.l3			fb34	 00
+	.l2			fb2b	 00
+	.l1			fb07	 00
+	.l0			faf1	 00
+_fx.counter			2012	 f8
+vdc_set_bat_size		ea16	 00
+checker_ge8_end_00340		974a	 03
+	.checker_ge8_1_00341	976a	 03
+	.checker_ge8_0_00341	975d	 03
+checker_ge8_end_00338		96f2	 03
+	.checker_ge8_1_00339	9712	 03
+	.checker_ge8_0_00339	9705	 03
+checker_ge8_end_00213		8370	 03
+	.checker_ge8_1_00214	8390	 03
+	.checker_ge8_0_00214	8383	 03
+spiral.3			fbd2	 00
+	.wait_00170		fbd9	 00
+	.loop			fbd3	 00
+cos_16_tbl			f171	 00
+vgm_setup			ed6e	 00
+spiral_update_2			30c2	 f0
+weather.pal			8c20	 04
+AND_NOW_VRAM_ADDR		2400	 f0
+VDC_MAWR			0000	 f0
+checker_ge8_end_00304		9172	 03
+	.checker_ge8_1_00305	9192	 03
+	.checker_ge8_0_00305	9185	 03
+checker_ge8_end_00284		8e2e	 03
+	.checker_ge8_1_00285	8e4e	 03
+	.checker_ge8_0_00285	8e41	 03
+checker_color_index		80ba	 03
+VDC_CR_RW_INC_32		0800	 f0
+VDC_BG_64x32			0010	 f0
+checker_ge8_end_00250		8974	 03
+	.checker_ge8_1_00251	8994	 03
+	.checker_ge8_0_00251	8987	 03
+checker_ge8_end_00248		891c	 03
+	.checker_ge8_1_00249	893c	 03
+	.checker_ge8_0_00249	892f	 03
+VDC_RCR				0006	 f0
+color_data			0404	 f0
+vgm_next_byte			ecbd	 00
+	.l0			ecd7	 00
+video_data			0002	 f0
+irq_on				0000	 f0
+checker_ge8_end_00341		9776	 03
+	.checker_ge8_1_00342	9796	 03
+	.checker_ge8_0_00342	9789	 03
+checker_ge8_end_00339		971e	 03
+	.checker_ge8_1_00340	973e	 03
+	.checker_ge8_0_00340	9731	 03
+checker_ge8_end_00214		839c	 03
+	.checker_ge8_1_00215	83bc	 03
+	.checker_ge8_0_00215	83af	 03
+vdc_calc_addr			ea50	 00
+	@w_32			ea61	 00
+	@w_128			ea67	 00
+	@w_64			ea64	 00
+VDC_BG_128x64			0060	 f0
+IRQ1				0001	 f0
+ARG_IMMEDIATE			0002	 f0
+VDC_CR_BG_ENABLE		0080	 f0
+checker_bat_init_0		80e4	 03
+spiral_update_3			3180	 f0
+spiral_sprites_end		b320	 02
+color_ctrl			0400	 f0
+checker_ge8_end_00305		919e	 03
+	.checker_ge8_1_00306	91be	 03
+	.checker_ge8_0_00306	91b1	 03
+checker_ge8_end_00285		8e5a	 03
+	.checker_ge8_1_00286	8e7a	 03
+	.checker_ge8_0_00286	8e6d	 03
+checker.fx			ed62	 00
+memcpy				2000	 f8
+psg_pan				0805	 f0
+_reset				e9b0	 00
+checker_ge8_end_00251		89a0	 03
+	.checker_ge8_1_00252	89c0	 03
+	.checker_ge8_0_00252	89b3	 03
+checker_ge8_end_00249		8948	 03
+	.checker_ge8_1_00250	8968	 03
+	.checker_ge8_0_00250	895b	 03
+weather.icon.data		a020	 05
+VCE_DOT_CLOCK_7MHZ		0001	 f0
+NMI				0003	 f0
+_irq_1				ed98	 00
+	@exit			edae	 00
+	@hsync			eda8	 00
+	@vsync			eda0	 00
+_cl				20fc	 f0
+checker_ge8_end_00342		97a2	 03
+	.checker_ge8_1_00343	97c2	 03
+	.checker_ge8_0_00343	97b5	 03
+checker_ge8_end_00215		83c8	 03
+	.checker_ge8_1_00216	83e8	 03
+	.checker_ge8_0_00216	83db	 03
+vdc_xres_320			eba7	 00
+IRQ2				0000	 f0
+sin_16_tbl			f131	 00
+VDC_STATUS_SATB_DMA_END		0008	 f0
+checker_bat_init_1		80f0	 03
+THETA_INC			1500	 f0
+spiral_perspective		e200	 00
+irq1_hook			2202	 f0
+checker_ge8_end_00306		91ca	 03
+	.checker_ge8_1_00307	91ea	 03
+	.checker_ge8_0_00307	91dd	 03
+checker_ge8_end_00286		8e86	 03
+	.checker_ge8_1_00287	8ea6	 03
+	.checker_ge8_0_00287	8e99	 03
+news.font.pal			85ea	 01
+checker_bat_y			98fd	 03
+_fx.id				2011	 f8
+ARG_ABS				0003	 f0
+checker_ge8_end_00252		89cc	 03
+	.checker_ge8_1_00253	89ec	 03
+	.checker_ge8_0_00253	89df	 03
+vdc_load_data			ea85	 00
+	@l1			eaa0	 00
+	@l0			ea90	 00
+	@l2			eaa6	 00
+VDC_VCR				000e	 f0
+news_rcr			2029	 f8
+_irq_2				ed96	 00
+checker_dx			2053	 f8
+GREEN				0124	 f0
+SPIRAL_LIVE_HEIGHT		0002	 f0
+checker_ge8_end_00343		97ce	 03
+	.checker_ge8_1_00344	97ee	 03
+	.checker_ge8_0_00344	97e1	 03
+checker_ge8_end_00216		83f4	 03
+	.checker_ge8_1_00217	8414	 03
+	.checker_ge8_0_00217	8407	 03
+WHITE				01ff	 f0
+wobbly_pal.1.hi			f127	 00
+checker_color_hi		80cf	 03
+VDC_BG_32x64			0040	 f0
+checker_ge8_end_00307		91f6	 03
+	.checker_ge8_1_00308	9216	 03
+	.checker_ge8_0_00308	9209	 03
+checker_ge8_end_00287		8eb2	 03
+	.checker_ge8_1_00288	8ed2	 03
+	.checker_ge8_0_00288	8ec5	 03
+spiral_sprites.pal		a000	 02
+and_now.end			8c20	 04
+vdc_yres_224			eb6f	 00
+ARG_STRING			0005	 f0
+VDC_BG_128x32			0020	 f0
+checker_x			2030	 f8
+spiral.init			f973	 00
+	.clear			f9d6	 00
+VDC_HSR_db			0000	 f0
+VDC_CR_HBLANK_ENABLE		0004	 f0
+checker_ge8_end_00253		89f8	 03
+	.checker_ge8_1_00254	8a18	 03
+	.checker_ge8_0_00254	8a0b	 03
+aslw				0000	 f0
+psg_ctrl			0804	 f0
+video_reg_h			0001	 f0
+VDC_DMA_SATB_ENABLE		0001	 f0
+checker_dy			2057	 f8
+checker_ge8_end_00344		97fa	 03
+	.checker_ge8_1_00345	981a	 03
+	.checker_ge8_0_00345	980d	 03
+checker_ge8_end_00217		8420	 03
+	.checker_ge8_1_00218	8440	 03
+	.checker_ge8_0_00218	8433	 03
+breaking_news.tiles		82ca	 01
+news_str.ptr			202b	 f8
+incw				0000	 f0
+irq_enable_vec			0000	 f0
+ARG_NONE			0000	 f0
+psg_freq_lo			0802	 f0
+color_data_lo			0404	 f0
+unmap_data			ec7c	 00
+vdc_set_write			e9ff	 00
+checker_ge8_end_00310		927a	 03
+	.checker_ge8_1_00311	929a	 03
+	.checker_ge8_0_00311	928d	 03
+checker_ge8_end_00308		9222	 03
+	.checker_ge8_1_00309	9242	 03
+	.checker_ge8_0_00309	9235	 03
+checker_ge8_end_00290		8f36	 03
+	.checker_ge8_1_00291	8f56	 03
+	.checker_ge8_0_00291	8f49	 03
+checker_ge8_end_00288		8ede	 03
+	.checker_ge8_1_00289	8efe	 03
+	.checker_ge8_0_00289	8ef1	 03
+checker_y			2034	 f8
+checker_pixel_index		805b	 03
+checker_ge8_end_00254		8a24	 03
+	.checker_ge8_1_00255	8a44	 03
+	.checker_ge8_0_00255	8a37	 03
+VDC_DMA_SATB_AUTO		0010	 f0
+reset_hook			220c	 f0
+RGB_dw				0000	 f0
+ARG_ABSOLUTE			0003	 f0
+psg_wavebuf			0806	 f0
+vdc_setreg			0000	 f0
+checker_ge8_end_00345		9826	 03
+	.checker_ge8_1_00346	9846	 03
+	.checker_ge8_0_00346	9839	 03
+checker_ge8_end_00220		84a4	 03
+	.checker_ge8_1_00221	84c4	 03
+	.checker_ge8_0_00221	84b7	 03
+checker_ge8_end_00218		844c	 03
+	.checker_ge8_1_00219	846c	 03
+	.checker_ge8_0_00219	845f	 03
+mul9				8051	 03
+vdc_load_tiles			ea75	 00
+checker_ge8_end_00311		92a6	 03
+	.checker_ge8_1_00312	92c6	 03
+	.checker_ge8_0_00312	92b9	 03
+checker_ge8_end_00309		924e	 03
+	.checker_ge8_1_00310	926e	 03
+	.checker_ge8_0_00310	9261	 03
+checker_ge8_end_00291		8f62	 03
+	.checker_ge8_1_00292	8f82	 03
+	.checker_ge8_0_00292	8f75	 03
+checker_ge8_end_00289		8f0a	 03
+	.checker_ge8_1_00290	8f2a	 03
+	.checker_ge8_0_00290	8f1d	 03
+spiral_mul			e000	 00
+SOURCE_ALT_DEST_INC		00f3	 f0
+checker_z			2038	 f8
+news.txt			914a	 01
+INT_TIMER			0004	 f0
+VDC_BG_32x32			0000	 f0
+checker_ge8_end_00255		8a50	 03
+	.checker_ge8_1_00256	8a70	 03
+	.checker_ge8_0_00256	8a63	 03
+live.end			85ea	 01
+nmi_hook			2206	 f0
+_bss_end			2205	 f0
+SOURCE_INC_DEST_NOP		00d3	 f0
+_dh				20ff	 f0
+_bx				20fa	 f0
+weather.end			9840	 04
+timer_enable			0000	 f0
+checker_ge8_end_00346		9852	 03
+	.end			9875	 03
+	.wait_00347		9855	 03
+checker_ge8_end_00221		84d0	 03
+	.checker_ge8_1_00222	84f0	 03
+	.checker_ge8_0_00222	84e3	 03
+checker_ge8_end_00219		8478	 03
+	.checker_ge8_1_00220	8498	 03
+	.checker_ge8_0_00220	848b	 03
+_r0				20e8	 f0
+SPIRAL_32x32_VRAM_ADDR		2200	 f0
+checker_ge8_end_00312		92d2	 03
+	.checker_ge8_1_00314	92f2	 03
+	.checker_ge8_0_00314	92e5	 03
+checker_ge8_end_00292		8f8e	 03
+	.checker_ge8_1_00293	8fae	 03
+	.checker_ge8_0_00293	8fa1	 03
+checker_repeat_8		0000	 f0
+VDC_DEFAULT_XRES		0100	 f0
+VDC_CR				0005	 f0
+irq_off				0000	 f0
+spiral_fg			f891	 00
+	.l3			f968	 00
+	.l2			f966	 00
+	@x_00122		f901	 00
+	.l1			f8f1	 00
+	.l0			f8e7	 00
+PSG_CTRL_CHAN_ON		0080	 f0
+psgport				0800	 f0
+checker_ge8_end_00256		8a7c	 03
+	.checker_ge8_1_00258	8a9c	 03
+	.checker_ge8_0_00258	8a8f	 03
+VDC_DMA_SRC_INC			0000	 f0
+checker_mask			2039	 f8
+PHI_INC				0280	 f0
+_di				20f0	 f0
+checker_generate_bat		80d4	 03
+checker_x0			2043	 f8
+fx.duration			ed50	 00
+VDC_DMA_CR			000f	 f0
+_r1				20ea	 f0
+checker_ge8_end_00222		84fc	 03
+	.checker_ge8_1_00224	851c	 03
+	.checker_ge8_0_00224	850f	 03
+SPIRAL_NEWS_HEIGHT		0005	 f0
+storm_loop_bank			0006	 f0
+wobbly_weather			ee00	 00
+checker_ge8_end_00293		8fba	 03
+	.checker_ge8_1_00294	8fda	 03
+	.checker_ge8_0_00294	8fcd	 03
+wobbly_init			ee45	 00
+	.brutal_clear		ef53	 00
+	@x4			ee8f	 00
+	@x3			ee82	 00
+	@x2			ee75	 00
+	@x1			ee68	 00
+	@x0			ee5b	 00
+SPIRAL_LIVE_PAL			0002	 f0
+psg_mainvol			0801	 f0
+DR16_VDC_DISPLAY_FLAG		0088	 f0
+video_reg_l			0000	 f0
+INT_ALL				000f	 f0
+sin_tbl				e340	 00
+news.font.end			914a	 01
+news_start			2024	 f8
+ramcode_end			82aa	 01
+_nmi				ed97	 00
+spiral_3_sin			e8b0	 00
+timer_hook			2204	 f0
+VSYNC				0004	 f0
+SPIRAL_NEWS_PAL			0003	 f0
+map_data			ec52	 00
+checker_ge8_end_00314		92fe	 03
+	.checker_ge8_1_00315	931e	 03
+	.checker_ge8_0_00315	9311	 03
+checker_ge8_end_00294		8fe6	 03
+	.checker_ge8_1_00295	9006	 03
+	.checker_ge8_0_00295	8ff9	 03
+PLANE_COUNT			0004	 f0
+_and_pat			2020	 f8
+_and_x				201c	 f8

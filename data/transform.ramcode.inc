@@ -1,0 +1,11 @@
+rx = $3014
+ry = $3001
+rz = $3005
+vertice_count = $315c
+vertex_x = $3183
+vertex_y = $3180
+vertex_z = $315f
+out_x = $31cb
+out_y = $31eb
+out_z = $320b
+transform = $3000
